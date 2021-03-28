@@ -11,9 +11,9 @@ import java.util.concurrent.TimeUnit;
 import java.util.function.Consumer;
 
 public class GoogleAudioTest {
-    private static String previousString = "";
     private static File file = new File("transcription.txt");
     private static long recordingStartTime;
+    public static ArrayList<String> timestampList = new ArrayList<>();
 
     // A large majority of the below method is from one of Google's samples regarding Cloud Services.
     public static void transcribeAudio(Consumer<String> transcriptHandler) throws Exception {
@@ -123,7 +123,6 @@ public class GoogleAudioTest {
             long timestamp = System.currentTimeMillis() - recordingStartTime;
             long minutes = TimeUnit.MILLISECONDS.toMinutes(timestamp);
             long seconds = TimeUnit.MILLISECONDS.toSeconds((timestamp - (minutes*60000)));
-            ArrayList<String> timestampList = new ArrayList<>();
             timestampList.add(minutes + ":" + seconds + ":");
             writer.write(text);
             writer.write("\n");
@@ -135,6 +134,7 @@ public class GoogleAudioTest {
     }
 
     public static void main(String[] args) throws Exception {
+        TechDemoFrame frame = new TechDemoFrame();
         transcribeAudio((transcript) -> {
             writeToFile(transcript);
         });

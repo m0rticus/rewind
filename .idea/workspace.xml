@@ -19,7 +19,23 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b36a897a-7cf4-4ebf-b09f-9c6e289ad4dc" name="Default Changelist" comment="" />
+    <list default="true" id="b36a897a-7cf4-4ebf-b09f-9c6e289ad4dc" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/TechDemoFrame.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/TechDemoFrame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/GoogleAudioTest$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/GoogleAudioTest$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/GoogleAudioTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/GoogleAudioTest.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -29,6 +45,18 @@
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
     </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -45,10 +73,11 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
+    <property name="last_opened_file_path" value="$APPLICATION_HOME_DIR$/lib/forms_rt.jar!/" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.16210938" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.tools" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
   </component>
   <component name="RunManager">
     <configuration name="GoogleAudioTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -77,49 +106,75 @@
     </task>
     <servers />
   </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="oldMeFiltersMigrated" value="true" />
-  </component>
   <component name="WindowStateProjectService">
     <state x="552" y="178" key="#Project_Structure" timestamp="1616881073587">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="178" key="#Project_Structure/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1616881073587" />
-    <state x="765" y="229" key="#com.intellij.ide.util.MemberChooser" timestamp="1616881323582">
+    <state x="765" y="229" key="#com.intellij.ide.util.MemberChooser" timestamp="1616903081547">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="765" y="229" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1616881323582" />
-    <state x="805" y="316" key="FileChooserDialogImpl" timestamp="1616899430800">
-      <screen x="0" y="0" width="2048" height="1122" />
+    <state x="765" y="229" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1616903081547" />
+    <state x="811" y="281" key="#com.intellij.openapi.roots.ui.configuration.libraryEditor.LibraryEditorDialog" timestamp="1616900774832">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state x="811" y="281" key="#com.intellij.openapi.roots.ui.configuration.libraryEditor.LibraryEditorDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1616900774832" />
+    <state x="711" y="342" key="#com.intellij.util.ui.classpath.ChooseLibrariesDialog" timestamp="1616900863579">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="711" y="342" key="#com.intellij.util.ui.classpath.ChooseLibrariesDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1616900863579" />
+    <state x="755" y="293" key="FileChooserDialogImpl" timestamp="1616900772071">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="755" y="293" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1616900772071" />
     <state x="805" y="316" key="FileChooserDialogImpl/0.0.2048.1122@0.0.2048.1122" timestamp="1616899430800" />
-    <state width="2005" height="308" key="GridCell.Tab.0.bottom" timestamp="1616899448902">
-      <screen x="0" y="0" width="2048" height="1122" />
-    </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1616897184936" />
-    <state width="2005" height="308" key="GridCell.Tab.0.bottom/0.0.2048.1122@0.0.2048.1122" timestamp="1616899448902" />
-    <state width="2005" height="308" key="GridCell.Tab.0.center" timestamp="1616899448902">
-      <screen x="0" y="0" width="2048" height="1122" />
-    </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1616897184936" />
-    <state width="2005" height="308" key="GridCell.Tab.0.center/0.0.2048.1122@0.0.2048.1122" timestamp="1616899448902" />
-    <state width="2005" height="308" key="GridCell.Tab.0.left" timestamp="1616899448902">
-      <screen x="0" y="0" width="2048" height="1122" />
-    </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1616897184936" />
-    <state width="2005" height="308" key="GridCell.Tab.0.left/0.0.2048.1122@0.0.2048.1122" timestamp="1616899448902" />
-    <state width="2005" height="308" key="GridCell.Tab.0.right" timestamp="1616899448902">
-      <screen x="0" y="0" width="2048" height="1122" />
-    </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1616897184936" />
-    <state width="2005" height="308" key="GridCell.Tab.0.right/0.0.2048.1122@0.0.2048.1122" timestamp="1616899448902" />
-    <state x="461" y="162" key="SettingsEditor" timestamp="1616883507225">
+    <state width="1877" height="284" key="GridCell.Tab.0.bottom" timestamp="1616904869058">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="461" y="162" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1616883507225" />
+    <state width="1877" height="284" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1616904869058" />
+    <state width="2005" height="308" key="GridCell.Tab.0.bottom/0.0.2048.1122@0.0.2048.1122" timestamp="1616899448902" />
+    <state width="1877" height="284" key="GridCell.Tab.0.center" timestamp="1616904869057">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="284" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1616904869057" />
+    <state width="2005" height="308" key="GridCell.Tab.0.center/0.0.2048.1122@0.0.2048.1122" timestamp="1616899448902" />
+    <state width="1877" height="284" key="GridCell.Tab.0.left" timestamp="1616904869057">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="284" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1616904869057" />
+    <state width="2005" height="308" key="GridCell.Tab.0.left/0.0.2048.1122@0.0.2048.1122" timestamp="1616899448902" />
+    <state width="1877" height="284" key="GridCell.Tab.0.right" timestamp="1616904869058">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="284" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1616904869058" />
+    <state width="2005" height="308" key="GridCell.Tab.0.right/0.0.2048.1122@0.0.2048.1122" timestamp="1616899448902" />
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1616903270038">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1616903270038" />
+    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1616903270038">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1616903270038" />
+    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1616903270038">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1616903270038" />
+    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1616903270038">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1616903270038" />
+    <state x="461" y="162" key="SettingsEditor" timestamp="1616901725756">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="162" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1616901725756" />
     <state x="656" y="343" key="com.intellij.ide.util.TipDialog" timestamp="1616883258701">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="656" y="343" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1616883258701" />
+    <state width="1516" height="235" key="javadoc.popup" timestamp="1616902908273">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1516" height="235" key="javadoc.popup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1616902908273" />
   </component>
 </project>
