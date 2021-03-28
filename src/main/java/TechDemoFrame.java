@@ -78,7 +78,7 @@ public class TechDemoFrame {
         panel1.setLayout(new com.intellij.uiDesigner.core.GridLayoutManager(2, 2, new Insets(0, 0, 0, 0), -1, -1));
         panel.add(panel1, new com.intellij.uiDesigner.core.GridConstraints(0, 0, 1, 1, com.intellij.uiDesigner.core.GridConstraints.ANCHOR_CENTER, com.intellij.uiDesigner.core.GridConstraints.FILL_BOTH, com.intellij.uiDesigner.core.GridConstraints.SIZEPOLICY_CAN_SHRINK | com.intellij.uiDesigner.core.GridConstraints.SIZEPOLICY_CAN_GROW, com.intellij.uiDesigner.core.GridConstraints.SIZEPOLICY_CAN_SHRINK | com.intellij.uiDesigner.core.GridConstraints.SIZEPOLICY_CAN_GROW, null, null, null, 0, false));
         button1 = new JButton();
-        button1.setText("Button");
+        button1.setText("Rewind!");
         button1.setVerticalAlignment(0);
         button1.setVerticalTextPosition(0);
         panel1.add(button1, new com.intellij.uiDesigner.core.GridConstraints(1, 0, 1, 2, com.intellij.uiDesigner.core.GridConstraints.ANCHOR_SOUTH, com.intellij.uiDesigner.core.GridConstraints.FILL_HORIZONTAL, com.intellij.uiDesigner.core.GridConstraints.SIZEPOLICY_FIXED, com.intellij.uiDesigner.core.GridConstraints.SIZEPOLICY_FIXED, null, null, null, 0, false));
@@ -86,14 +86,14 @@ public class TechDemoFrame {
         Font hello2TextAreaFont = this.$$$getFont$$$("JetBrains Mono", Font.BOLD, 16, hello2TextArea.getFont());
         if (hello2TextAreaFont != null) hello2TextArea.setFont(hello2TextAreaFont);
         hello2TextArea.setLineWrap(true);
-        hello2TextArea.setText("Hello2");
+        hello2TextArea.setText("");
         panel1.add(hello2TextArea, new com.intellij.uiDesigner.core.GridConstraints(0, 1, 1, 1, com.intellij.uiDesigner.core.GridConstraints.ANCHOR_CENTER, com.intellij.uiDesigner.core.GridConstraints.FILL_BOTH, com.intellij.uiDesigner.core.GridConstraints.SIZEPOLICY_WANT_GROW, com.intellij.uiDesigner.core.GridConstraints.SIZEPOLICY_WANT_GROW, null, new Dimension(150, 50), null, 0, false));
         hello1TextArea = new JTextArea();
         hello1TextArea.setColumns(2);
         Font hello1TextAreaFont = this.$$$getFont$$$("JetBrains Mono", Font.BOLD, 16, hello1TextArea.getFont());
         if (hello1TextAreaFont != null) hello1TextArea.setFont(hello1TextAreaFont);
         hello1TextArea.setLineWrap(true);
-        hello1TextArea.setText("Hello1");
+        hello1TextArea.setText("");
         panel1.add(hello1TextArea, new com.intellij.uiDesigner.core.GridConstraints(0, 0, 1, 1, com.intellij.uiDesigner.core.GridConstraints.ANCHOR_CENTER, com.intellij.uiDesigner.core.GridConstraints.FILL_BOTH, 1, com.intellij.uiDesigner.core.GridConstraints.SIZEPOLICY_WANT_GROW, null, new Dimension(150, 50), null, 0, false));
     }
 

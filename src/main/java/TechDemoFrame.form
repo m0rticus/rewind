@@ -37,7 +37,7 @@
             <properties>
               <font name="JetBrains Mono" size="16" style="1"/>
               <lineWrap value="true"/>
-              <text value="Hello2"/>
+              <text value=""/>
             </properties>
           </component>
           <component id="65d0c" class="javax.swing.JTextArea" binding="hello1TextArea" default-binding="true">
@@ -50,7 +50,7 @@
               <columns value="2"/>
               <font name="JetBrains Mono" size="16" style="1"/>
               <lineWrap value="true"/>
-              <text value="Hello1"/>
+              <text value=""/>
             </properties>
           </component>
         </children>
