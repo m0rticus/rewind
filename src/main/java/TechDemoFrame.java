@@ -3,29 +3,28 @@ import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.io.*;
-import java.util.ArrayList;
 
 public class TechDemoFrame {
     private JPanel panel;
     private JButton button1;
     private JTextArea hello1TextArea;
     private JTextArea hello2TextArea;
-    private String timestampText = "";
-    private String previousEntry;
 
     public TechDemoFrame() {
+        // Initialize the JFrame. The other components are initialized by IntelliJ's GUI designer.
         JFrame frame = new JFrame();
         frame.setContentPane(panel);
         frame.setVisible(true);
         frame.pack();
-        frame.setMinimumSize(new Dimension(750, 750));
+        frame.setMinimumSize(new Dimension(1500, 1000));
         frame.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
-        GridLayout gridLayout = new GridLayout(0, 2);
 
         button1.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
                 try {
+                    // Grab all the lines from the transcription's text document.
+                    // Then check if it is blank thus far, and if not, fill up the right text box.
                     BufferedReader reader = new BufferedReader(new FileReader(new File("transcription.txt")));
                     StringBuilder s = new StringBuilder();
                     String line = reader.readLine();
@@ -36,6 +35,19 @@ public class TechDemoFrame {
                     String str = s.toString();
                     if (!str.equals("")) {
                         hello2TextArea.setText(str);
+                    }
+                    // Similar to the previous method, grab the lines from the timestamps text document.
+                    // If the strings are not empty, then fill up the left text box with timestamps.
+                    BufferedReader timestampReader = new BufferedReader(new FileReader(new File("timestamps.txt")));
+                    StringBuilder s2 = new StringBuilder();
+                    String line2 = timestampReader.readLine();
+                    while (line2 != null) {
+                        s2.append(line2).append("\n");
+                        line2 = timestampReader.readLine();
+                    }
+                    String timestamp = s2.toString();
+                    if (!timestamp.equals("")) {
+                        hello1TextArea.setText(timestamp);
                     }
                 } catch (Exception exception) {
                     exception.printStackTrace();
@@ -71,14 +83,14 @@ public class TechDemoFrame {
         button1.setVerticalTextPosition(0);
         panel1.add(button1, new com.intellij.uiDesigner.core.GridConstraints(1, 0, 1, 2, com.intellij.uiDesigner.core.GridConstraints.ANCHOR_SOUTH, com.intellij.uiDesigner.core.GridConstraints.FILL_HORIZONTAL, com.intellij.uiDesigner.core.GridConstraints.SIZEPOLICY_FIXED, com.intellij.uiDesigner.core.GridConstraints.SIZEPOLICY_FIXED, null, null, null, 0, false));
         hello2TextArea = new JTextArea();
-        Font hello2TextAreaFont = this.$$$getFont$$$("JetBrains Mono", Font.BOLD, 10, hello2TextArea.getFont());
+        Font hello2TextAreaFont = this.$$$getFont$$$("JetBrains Mono", Font.BOLD, 16, hello2TextArea.getFont());
         if (hello2TextAreaFont != null) hello2TextArea.setFont(hello2TextAreaFont);
         hello2TextArea.setLineWrap(true);
         hello2TextArea.setText("Hello2");
         panel1.add(hello2TextArea, new com.intellij.uiDesigner.core.GridConstraints(0, 1, 1, 1, com.intellij.uiDesigner.core.GridConstraints.ANCHOR_CENTER, com.intellij.uiDesigner.core.GridConstraints.FILL_BOTH, com.intellij.uiDesigner.core.GridConstraints.SIZEPOLICY_WANT_GROW, com.intellij.uiDesigner.core.GridConstraints.SIZEPOLICY_WANT_GROW, null, new Dimension(150, 50), null, 0, false));
         hello1TextArea = new JTextArea();
         hello1TextArea.setColumns(2);
-        Font hello1TextAreaFont = this.$$$getFont$$$("JetBrains Mono", Font.BOLD, 10, hello1TextArea.getFont());
+        Font hello1TextAreaFont = this.$$$getFont$$$("JetBrains Mono", Font.BOLD, 16, hello1TextArea.getFont());
         if (hello1TextAreaFont != null) hello1TextArea.setFont(hello1TextAreaFont);
         hello1TextArea.setLineWrap(true);
         hello1TextArea.setText("Hello1");
