@@ -8,13 +8,15 @@ import javax.sound.sampled.*;
 import java.io.*;
 import java.util.ArrayList;
 import java.util.concurrent.TimeUnit;
+import java.util.function.Consumer;
 
 public class GoogleAudioTest {
     private static String previousString = "";
     private static File file = new File("transcription.txt");
     private static long recordingStartTime;
-     // A large majority of the below method is from one of Google's samples regarding Cloud Services.
-    static void getAudio() throws Exception {
+
+    // A large majority of the below method is from one of Google's samples regarding Cloud Services.
+    public static void transcribeAudio(Consumer<String> transcriptHandler) throws Exception {
         ResponseObserver<StreamingRecognizeResponse> responseObserver = null;
         try (SpeechClient client = SpeechClient.create()) {
             // Create listener for Responses and subsequent actions.
@@ -41,7 +43,8 @@ public class GoogleAudioTest {
                     for (StreamingRecognizeResponse response : responses) {
                         StreamingRecognitionResult result = response.getResultsList().get(0);
                         SpeechRecognitionAlternative alternative = result.getAlternativesList().get(0);
-                        writeToFile(alternative.getTranscript());
+                        String transcript = alternative.getTranscript();
+                        transcriptHandler.accept(transcript);
                     }
                 }
             };
@@ -104,6 +107,7 @@ public class GoogleAudioTest {
             System.out.println(e);
         }
     }
+
     public static void writeToFile(String text) {
         System.out.println(text);
         try {
@@ -129,8 +133,11 @@ public class GoogleAudioTest {
             e.printStackTrace();
         }
     }
-    public static void main (String[]args) throws Exception {
-        getAudio();
+
+    public static void main(String[] args) throws Exception {
+        transcribeAudio((transcript) -> {
+            writeToFile(transcript);
+        });
     }
 
 }
